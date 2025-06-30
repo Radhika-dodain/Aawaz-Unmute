@@ -22,19 +22,20 @@ In India, deeply rooted stigmas around menstruation, mental health, hygiene and 
 
 **Awaaz Unmute** uses **short, relatable audio stories** in regional languages to break stigmas and enable conversations in a safe, private environment. It allows:
 
-- **Listeners** to access stories privately and submit anonymous feedback-
-    ~ They can send their own stories in words using the form if they want us to create an audio story of it. 
-    ~ They can also send requests to related NGOs for help using this feature.
+- **Listeners** to access stories privately and submit anonymous feedback- <br>
+    ~ They can send their own stories in words using the form if they want us to create an audio story of it. <br>
+    ~ They can also send requests to related NGOs for help using this feature. <br>
 
-  - **Writers/Voice Actors/Translators** can submit their work here-
+- **Writers/Voice Actors/Translators** can submit their work here- <br>
     ~ presently we can provide them contributor badges for their portfolios but in future we can use try to get NGOs funds and some editorial company's CSR funding.
 
-- **Educators** to use stories in classrooms with integrated quizzes-
-   
-    ~ 
+- **Educators** to use stories in classrooms with integrated quizzes- <br>
+    ~ They can be used for educational purposes in classrooms, with quizzes at the end of every story in the educator mode and sharable links.
 
-
-- **NGOs** to collect anonymous insights for targeted awareness drives.
+- **NGOs** to collect anonymous insights for targeted awareness drives. <br>
+    ~ can start with college linked NGOs like NSS etc.
+    ~ They can use this for awareness campaigns, collect data [can identify issue trend like "30+ message about domestic abuse from hisar, etc"] and also provide anonymous messages for help option "need help? You can send an anonymous message to verified NGO"
+    ~ Data privacy and encription
 
 ---
 
