@@ -1,0 +1,152 @@
+body {
+  margin-top: 0px;
+   font-family: sans-serif; 
+   padding: 20px;
+   padding-top: 0px;
+    background: #f5f6e6;
+    flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+          
+   }
+
+   
+
+h1 {
+    font-family: 'Fredoka One', sans-serif;
+    color: rgba(225, 137, 14, 0.927);
+    text-shadow: 2px 2px 0 black;
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+
+h2{
+  font-family: 'Fredoka One', sans-serif;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.pic{
+ object-fit: cover;
+ object-position: center;
+ 
+}
+
+.logo img{
+width: 500px;
+max-width: 80%;
+margin-left: 90px;
+justify-content: center;
+align-items: center;
+
+}
+
+.name{
+  padding-left: 5px;
+}
+
+.top{
+  text-align: center;
+  font-size: 20px;
+  
+}
+
+
+.tagline {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    color: #1A1A1A; 
+}
+
+
+    .card { 
+      background: rgb(242, 239, 147);
+  
+       padding: 20px; 
+       border-radius: 10px;
+        margin-bottom: 20px;
+       box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+      }
+
+    .card h1{
+          color: #1A1A1A;
+          text-align: center;
+          text-shadow: -1px -1px 5px white;
+    }
+
+    .option{
+     border-radius: 30px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+
+    .role-btn {
+       padding: 50px 10px;
+       margin: 50px;
+       font-size: 30px;
+        background: #4d4c4c; 
+        box-shadow: 5px 5px 5px black;
+        opacity: 0.80;
+        color: white;
+        border: none; 
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+       }
+
+     .role-btn:hover{
+      background-color: black;
+     }
+
+
+
+     
+    .foot{
+      display: flex;
+    } 
+    .change-role-btn{
+       padding: 50px 10px;
+       margin: 50px;
+       margin-right: 0;
+       margin-bottom: 8px;
+       font-size: 30px;
+        background: #4d4c4c; 
+        box-shadow: 5px 5px 5px black;
+        opacity: 0.80;
+        color: white;
+        border: none; 
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+    } 
+     .change-role-btn:hover{
+      background-color: black;
+     }
+    .foot img{
+      height: 100px;
+      align-self: flex-end;
+    }
+    
+
+
+
+
+
+
+    audio { 
+      width: 100%;
+       margin-top: 10px;
+       }
+
+    textarea { 
+      width: 100%; 
+      height: 80px;
+       margin-top: 10px; 
+      }

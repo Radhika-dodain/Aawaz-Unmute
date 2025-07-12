@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listener-section</title>
+  <link rel="stylesheet" href="../styles/listener.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parastoo:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+  <h1>Welcome, Listener!</h1>
+  <p style="font-family:'Parastoo';
+  font-size: 25px;">Here you can listen to stories, submit anonymous feedback, and share your stories for audio conversion.</p>
+
+
+
+<div class="audios">
+
+
+   <div class="audio-info">
+        <h4>Kafan<br>-Munshi Premchand</h4>
+      </div>
+
+  <div class="audio-info">
+        <h4>How I taught my Grandmother to read <br> -Sudha Murty</h4>
+      </div>
+      
+
+  <div class="audio-card">
+    <img src="../thumbnails/Kafan.png" class="bg-img">
+
+      <div class="audio-controls">
+          <button class="play-pause" id="playPauseBtn">▶️
+          </button>
+          <input type="range" id="seekSlider" value="0" min="0" step="1">
+          <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+      </div>
+
+      <audio id="audioPlayer" src="sample1.mp3"></audio>
+  </div>
+
+  
+  <div class="audio-card">
+    <img src="../thumbnails/how I taught my grandma to read.jpg" class="bg-img">
+
+      <div class="audio-controls">
+          <button class="play-pause" id="playPauseBtn">▶️
+          </button>
+          <input type="range" id="seekSlider" value="0" min="0" step="1">
+          <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+      </div>
+
+      <audio id="audioPlayer" src="sample1.mp3"></audio>
+  </div>
+
+  <div id="feedback-form" class="card hidden">
+    <h3 style="margin-bottom: 5px;">🩵 How did the story make you feel?
+    </h3>
+    <p style="padding: 0; margin-bottom: 15px; word-spacing: 2px;font-size: 14px;">Need help? Send us anonymous text</p>
+  
+    <textarea
+     style="width: 250px;
+     padding: 20px;"
+    placeholder="Write your thoughts here..."></textarea>
+    <button onclick="alert('Feedback submitted!')" class="role-btn">Submit
+    </button>
+  </div>
+
+  <div id="feedback-form" class="card hidden">
+     <h3 style="margin-bottom: 5px;">🩵 How did the story make you feel?
+    </h3>
+    <p style="padding: 0; margin-bottom: 15px; word-spacing: 2px;font-size: 14px;">Need help? Send us anonymous text</p>
+
+    <textarea 
+     style="width: 250px;
+     padding: 20px;"
+    
+    placeholder="Write your thoughts here..."></textarea>
+    <button onclick="alert('Feedback submitted!')" class="role-btn">Submit
+    </button>
+  </div>
+
+
+</div>
+
+
+ <div class="foot">
+       <button onclick="window.location.href='../index.html'" class="change-role-btn">🔄 Change Role</button>
+   <img src="../thumbnails/bipolar by Timo Kuilder.png" >
+  </div>
+
+
+  <script src="../jsfiles/listener.js"></script>
+
+</body>
+</html>

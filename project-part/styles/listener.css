@@ -1,0 +1,107 @@
+  body {
+    background-color:  rgba(230,215,186,20);
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.audios{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  margin-top: 100px;
+}
+
+.audio-card {
+  background: rgba(0, 0, 0, 0.173);
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  width: 300px;
+  height: 400px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.audio-card:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}
+
+
+
+.bg-img{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  opacity: 0.7;
+  z-index: -1;
+  
+}
+
+.audio-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  width: 100%;
+}
+
+.play-pause {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+input[type="range"] {
+  width: 100px;
+}
+
+  
+  
+
+  
+  
+  .foot{
+      display: flex;
+      margin-top: 200px;
+    } 
+    .change-role-btn{
+       padding: 30px 10px;
+       margin: 50px;
+       margin-right: 0;
+       margin-bottom: 8px;
+       font-size: 15px;
+        background: #4d4c4c; 
+        box-shadow: 5px 5px 5px black;
+        opacity: 0.80;
+        color: white;
+        border: none; 
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+    } 
+     .change-role-btn:hover{
+      background-color: black;
+     }
+    .foot img{
+      height: 100px;
+      align-self: flex-end;
+    }
+    
+

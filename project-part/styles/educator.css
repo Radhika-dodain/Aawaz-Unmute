@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(6,18,42,255);
+  color: aliceblue;
+
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+  
+.head{
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+  
+.head img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+  
+.headtext{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translateX(11%);
+    text-align: center;
+    color: black;
+ }
+
+ .mainbody{
+  display: flex;
+  margin: 35px;
+  justify-content: center;
+  align-items: center;
+ }
+  .mainbody img{
+    margin: 40px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .foot{
+      display: flex;
+    } 
+    .change-role-btn{
+       padding: 30px 10px;
+       margin: 50px;
+       margin-right: 0;
+       margin-bottom: 8px;
+       font-size: 15px;
+        background: #4d4c4c; 
+        box-shadow: 5px 5px 5px black;
+        opacity: 0.80;
+        color: white;
+        border: none; 
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+    } 
+     .change-role-btn:hover{
+      background-color: rgb(103, 102, 102);
+     }
+   
+
