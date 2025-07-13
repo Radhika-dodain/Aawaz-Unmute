@@ -5,22 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Educator-section</title>
  <link rel="stylesheet" href="../styles/educator.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
 
 
 </head>
 <body>
   
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Educator - Awaaz Unmute</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-
   <div class="head">
     <img src="../thumbnails/hello.png"  >
     <div class="headtext">
@@ -32,55 +24,67 @@
 
 <div class="mainbody">
 
-  <div class="tv">
-    <img src="../thumbnails/educard.jpeg" >
-    <div class="content">
-      <img src="../thumbnails/Hans Christian Andersen, _The Ugly Duckling_.jpg" >
-      <audio controls>
+  <div class="content">
+    <h1 style="
+      font-family: Chewy;
+      word-spacing: 5px;
+      ">The Ugly Duckling</h1>
+
+      <img src="../thumbnails/Hans Christian Andersen, _The Ugly Duckling_.jpg" class="book">
+
+      <audio controls style="width: 80%;
+      padding-top: 8px;">
         <source  src="../audios/Ugly Duckling in English  Stories for Teenagers  @EnglishFairyTales.mp3" type="audio/mpeg">
       </audio> 
-    </div>
-
 
   </div>
 
 
+  <div class="content">
+    <h1 style="font-family: Chewy;
+      word-spacing: 5px;"
+    >Sher Aur Chuha</h1>
 
-  <div class="tv">
-    <img src="../thumbnails/educard.jpeg" > 
-    <div class="content">
-      <img src="../thumbnails/lionmouse.jpg" >
-      <audio controls>
+      <img src="../thumbnails/lionmouse.jpg" class="book">
+
+      <audio controls style="width: 80%;
+      padding-top: 8px;">
       <source src="../audios/शर और चह  Lion and Mouse in Hindi  @HindiFairyTales.mp3" type="audio/mpeg">
       </audio>
-    </div>
   </div>
-    
-</div>
-
-  <!-- Placeholder for quiz section
-  <button>Start Quiz</button>
 
 
-
-
-  <div id="mcq-section" class="card hidden">
+    <div id="mcq-section" class="card hidden">
     <h3>📘 Quick Quiz</h3>
-    <p>Which of these is NOT a menstrual myth?</p>
-    <input type="radio" name="mcq" value="1"> You shouldn’t touch pickles<br>
-    <input type="radio" name="mcq" value="2"> You can go to school<br>
-    <input type="radio" name="mcq" value="3"> You can’t enter temples<br>
+    <p>What is the main moral of The Ugly Duckling?</p>
+    <input type="radio" name="mcq" value="1"> Stay away from strangers<br>
+    <input type="radio" name="mcq" value="2"> Hard work brings success<br>
+    <input type="radio" name="mcq" value="3"> Appearances can be deceiving, and everyone has their own beauty<br>
     <br>
     <button onclick="checkMCQ()" class="role-btn">Check Answer</button>
     <p id="mcq-result"></p>
-    </div> -->
+    </div>
 
+     <div id="mcq-section" class="card hidden">
+    <h3>📘 Quick Quiz</h3>
+    <p>What is the main moral of Sher aur Chuha?</p>
+    <input type="radio" name="mcq2" value="1">  Never trust anyone<br>
+    <input type="radio" name="mcq2" value="2"> Big people do not need help<br>
+    <input type="radio" name="mcq2" value="3"> Even small beings can help in big ways<br>
+    <br>
+    <button onclick="checkMCQ2()" class="role-btn">Check Answer</button>
+    <p id="mcq-result2"></p>
+    </div>
+
+ 
+    
+</div>
 
 
 
 <br>
 <br>
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<br> <br> <br> <br> <br> 
       <div class="foot">
        <button onclick="window.location.href='../index.html'" class="change-role-btn">🔄 Change Role</button>
   </div>

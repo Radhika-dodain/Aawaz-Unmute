@@ -8,28 +8,58 @@
 </head>
 <body>
   
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NGO - Awaaz Unmute</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <h1>Welcome, NGO Partner!</h1>
-  <p>Here you can view anonymous feedback, analyze trends, and manage your outreach campaigns.</p>
+ <section class="hero">
+  <p>
+    <span  style="background-color:rgb(255, 193, 7);
+    font-size: 60px;
+    padding: 10px;
+    ">
+      Unmute Help, Unmute Hope
+    </span>
+  </p>
+    <button>Contact Us
+    </button>
+  </section>
 
-  <!-- Placeholder for NGO dashboard -->
-  <button>View Insights</button>
+  
+  <section class="info-panels">
+    <div class="panel">
+      <h3>Start Local, Create Impact</h3>
+      <p>Partner with colleges & NSS units for outreach.</p>
+    </div>
+    <div class="panel">
+      <h3>Run Awareness Campaigns</h3>
+      <p>Use story data trends to plan impactful drives.</p>
+    </div>
+    <div class="panel">
+      <h3>Protect Privacy</h3>
+      <p>Anonymous messages & encrypted data.</p>
+    </div>
+  </section>
 
 
+  <section class="who-we-are">
+    <h2>Who We Are</h2>
+    <p>We help NGOs listen & act on real voices through stories & data insights.</p>
+    <div class="cards">
+      <div class="card">Local Partnerships</div>
+      <div class="card">Verified Support</div>
+      <div class="card">Safe Reporting</div>
+    </div>
+  </section>
 
-  <script src="ngo.js"></script>
-</body>
-</html>
+  
+  <section class="graph-section">
+    <h2>Issue Trends</h2>
+    <canvas id="issueChart" width="150" height="50"></canvas>
+  </section>
 
-
+  
+  <section class="help-section">
+    <h3>Need Help? Send an Anonymous Message</h3>
+    <textarea placeholder="Write your message here..."></textarea>
+    <button onclick="alert('Message sent anonymously!')">Send</button>
+  </section>
 
 
 
@@ -38,6 +68,10 @@
    <img src="../thumbnails/bipolar by Timo Kuilder.png" >
   </div>
 
-
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="../jsfiles/ngo.js"></script>
 </body>
 </html>
+
+

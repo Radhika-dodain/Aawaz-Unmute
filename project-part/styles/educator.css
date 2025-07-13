@@ -36,16 +36,39 @@ button {
  }
 
  .mainbody{
-  display: flex;
+  display: grid;
+  grid-template-columns: 
+  1fr 1fr;
   margin: 35px;
-  justify-content: center;
-  align-items: center;
  }
-  .mainbody img{
-    margin: 40px;
-  }
   
   
+.content {
+  padding: 20px;
+  border-radius: 16px;
+  width: 500px;
+  height: auto;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(244, 233, 233, 0.3);
+}
+
+.content:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}
+
+
+  
+  .book{
+   width: 550px;
+   height: 300px;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 8px;
+  
+  } 
   
   
   
